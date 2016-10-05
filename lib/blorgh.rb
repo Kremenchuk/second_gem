@@ -6,6 +6,7 @@ module Blorgh
     method_one
   else
     $exchanger_modules_to_sidebar = []
+    Blorgh.method_two
     # module_function :add_to_const_blorgh
   end
 
