@@ -12,4 +12,5 @@ module Blorgh
     $exchanger_modules_to_sidebar = []
     add_to_const_blorgh
   end
+
 end
