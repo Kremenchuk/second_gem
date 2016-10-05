@@ -2,9 +2,14 @@ require "blorgh/engine"
 
 module Blorgh
   if $exchanger_modules_to_sidebar.present?
-    $exchanger_modules_to_sidebar << :my_second_gem
+    add_to_const
   else
     $exchanger_modules_to_sidebar = []
-    $exchanger_modules_to_sidebar << :my_second_gem
+    add_to_const
+  end
+
+  def add_to_const
+    $exchanger_modules_to_sidebar << {[:gem] => :my_second_gem}
+    $exchanger_modules_to_sidebar << {[:title] => 'My second_gem'}
   end
 end
