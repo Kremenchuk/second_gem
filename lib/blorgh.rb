@@ -15,16 +15,16 @@ module Blorgh
     # $exchanger_modules_to_sidebar << {:title => 'My second_gem'}
   end
 
-  # def Blorgh.method_two
-  # end
-  #
-  # class << self
-  #   def method_three
-  #   end
-  # end
-  #
-  # def method_four
-  # end
+  def Blorgh.method_two
+  end
+
+  class << self
+    def method_three
+    end
+  end
+
+  def method_four
+  end
 
 
 
