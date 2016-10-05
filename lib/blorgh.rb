@@ -2,10 +2,10 @@ require "blorgh/engine"
 
 module Blorgh
   if $exchanger_modules_to_sidebar.present?
-    add_to_const_blorgh
+    Blorgh.add_to_const_blorgh
   else
     $exchanger_modules_to_sidebar = []
-    add_to_const_blorgh
+    Blorgh.add_to_const_blorgh
   end
 
   def self.add_to_const_blorgh
