@@ -1,0 +1,1 @@
+Rails.configuration.x.require_gem << {:gem => 'my_second_gem', :title => 'My second gem'}
